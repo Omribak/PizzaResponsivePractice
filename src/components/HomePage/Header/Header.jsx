@@ -21,6 +21,14 @@ const HeaderContainer = styled.div`
 const Logo = styled.img`
   width: 10vw;
   margin-left: 5rem;
+
+  @media only screen and (max-width: 800px) {
+    width: 17vw;
+  }
+
+  @media only screen and (max-width: 500px) {
+    width: 30vw;
+  }
 `;
 
 const SocialIcons = styled.div`

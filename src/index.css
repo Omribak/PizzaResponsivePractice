@@ -18,13 +18,14 @@ body {
 
   .specials-content {
     margin-left: 3.8rem;
+    font-size: 20px;
   }
 
   @media only screen and (max-width: 800px) {
     /*HomePage*/
     body .hamburger-menu {
       display: block;
-      margin-right: 3rem;
+      margin-right: 10rem;
     }
 
     body .social-icons {
@@ -36,7 +37,14 @@ body {
     }
 
     .specials-content {
-      font-size: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    /*HomePage*/
+    body .hamburger-menu {
+      display: block;
+      margin-right: 5rem;
     }
   }
 }
