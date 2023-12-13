@@ -34,9 +34,9 @@ body {
     body .navbar-container {
       display: none;
     }
-  }
-}
 
-.md {
-  background-color: rgb(168, 164, 164);
+    .specials-content {
+      font-size: 10px;
+    }
+  }
 }
